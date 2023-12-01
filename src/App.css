@@ -1,0 +1,26 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+:root{
+  --main-text-color:rgb(0, 0, 0);
+  --main-bg-color: #ffffff;
+  --main-ctgbg-color: #000000;
+  --main-ctg-color: #ffffff;
+}
+.dark{
+  --main-text-color:white;
+  --main-bg-color: #3d0000;
+  --main-ctgbg-color: #ffffff;
+  --main-ctg-color: #000000;
+  transition: 500ms;
+
+}
+body{
+  transition: 500ms;
+  color: var(--main-text-color);
+  background-color: var(--main-bg-color);
+}

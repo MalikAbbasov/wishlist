@@ -1,0 +1,42 @@
+.container{
+    max-width: 100vw;
+    min-height: 75px;
+    background-color:var(--main-nav-color) ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    h2{
+        cursor: pointer;
+        font-size: 33px;
+    }
+    ul{
+        display: flex;
+        cursor: pointer;
+        gap: 20px;
+        font-size: 22px;
+    }
+}
+
+  :root{
+    --main-btnbg-color:rgb(255, 255, 255);
+    --main-btn-color:#000000;
+    --main-nav-color: #234E70;
+  }
+  .dark{
+    --main-btnbg-color:#000000;
+    --main-nav-color:#000000;
+    --main-btn-color:#ffffff;
+  }
+  nav{
+    background-color: var(--main-nav-color);
+  }
+  button{
+    font-size: 25px;
+    background-color: var(--main-btnbg-color);
+    color: var(--main-btn-color);
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
